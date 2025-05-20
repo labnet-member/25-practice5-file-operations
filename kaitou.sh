@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ➀ Raspberry Pi → RPi に置換（末尾に改行あり）
+# ➀ Raspberry Pi → RPi に置換
 sed [➀] device.txt > out1.txt
 
 # ➁ 4で終わる名前を抽出

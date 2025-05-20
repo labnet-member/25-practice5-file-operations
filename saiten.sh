@@ -88,7 +88,7 @@ check_output() {
     fi
 }
 
-check_output out1.txt "$expected_out1" "➀ Raspberry Pi を RPi に置換し、すべての行を out1.txt に出力"
+check_output out1.txt "$expected_out1" "➀ Raspberry Pi を RPi に置換"
 check_output out2.txt "$expected_out2" "➁ 末尾が4"
 check_output out3.txt "$expected_out3" "➂ Model [A-Z]"
 

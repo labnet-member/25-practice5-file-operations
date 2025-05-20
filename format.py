@@ -12,10 +12,10 @@ def save_data(data, output_path):
     print(f"{output_path} に保存しました。")
 
 def main():
-    input_path = "input.txt"
+    input = "input.txt"
     output_path = "output.txt"
 
-    with open(input_path, 'r', encoding='utf-8') as f:
+    with open(input, 'r', encoding='utf-8') as f:
         data = f.readlines()
 
     data = clean_data(data)
