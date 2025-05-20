@@ -1,5 +1,4 @@
 def clean_data(data):
-    # main関数のdataとは別物（ローカル変数）
     data = [line.strip() for line in data if line.strip()]
     print("データ整形完了（clean_data内）:")
     for line in data:
@@ -17,9 +16,9 @@ def main():
     output_path = "output.txt"
 
     with open(input_path, 'r', encoding='utf-8') as f:
-        data = f.readlines()  # これはmain内のdata
+        data = f.readlines()
 
-    data = clean_data(data)  # 別関数でも同じ変数名を使用して問題なし
+    data = clean_data(data)
     save_data(data, output_path)
 
 if __name__ == "__main__":

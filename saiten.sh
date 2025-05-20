@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# 実行前に結果ファイル削除（前回の残骸があると誤判定になるため）
+# 実行前に結果ファイル削除
 rm -f out1.txt out2.txt out3.txt
 
 # 解答スクリプトを実行
 bash kaitou.sh
 
-# 正解データ（変数）
+# 正解データ
 expected_out1=$(cat <<EOF
 RPi 5
 RPi 4 Model B
@@ -68,7 +68,7 @@ Raspberry Pi 3 Model A+
 EOF
 )
 
-# 採点関数
+# 採点
 score=0
 
 check_output() {
