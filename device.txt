@@ -1,0 +1,40 @@
+Raspberry Pi 5
+Raspberry Pi 4 Model B
+Raspberry Pi 3 Model B+
+Raspberry Pi 3 Model A+
+Raspberry Pi Zero 2 W
+Raspberry Pi Zero W
+Raspberry Pi 400
+Raspberry Pi Compute Module 4
+Raspberry Pi Compute Module 3+
+Arduino Uno R3
+Arduino Mega 2560
+Arduino Leonardo
+Arduino Nano
+Arduino Nano Every
+Arduino Nano 33 IoT
+Arduino MKR WiFi 1010
+Arduino Due
+Arduino Portenta H7
+Jetson Nano
+Jetson Xavier NX
+Jetson TX2
+Jetson AGX Xavier
+Jetson Orin Nano
+Jetson Orin NX
+BeagleBone Black
+BeagleBone Green
+BeagleBone AI
+BeagleBoard-xM
+Banana Pi M5
+Banana Pi R2
+Orange Pi 5
+Orange Pi Zero 2
+LattePanda Alpha
+LattePanda 3 Delta
+Rock Pi 4
+ROCK64
+PINE A64
+ODROID-XU4
+ODROID-C4
+Khadas VIM3
